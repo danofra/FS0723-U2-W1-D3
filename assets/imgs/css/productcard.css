@@ -1,0 +1,48 @@
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#art-img {
+  background-image: url(../honey.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 450px;
+  height: 450px;
+  border-radius: 90px 90px 0px 0px;
+}
+#honey-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 450px;
+  height: 200px;
+  background-color: #fbf7e3;
+  border-radius: 0px 0px 90px 90px;
+  font-size: 1.5em;
+}
+#art-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#art-text1 h3,
+#art-text1 p {
+  margin: 0;
+}
+#art-price {
+  display: flex;
+  justify-content: end;
+}
+#art-btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border-radius: 50px;
+  background-color: #f3df85;
+  border: none;
+  padding: 10px 50px 10px 50px;
+  font-size: 1em;
+}
